@@ -1,5 +1,6 @@
 package in.athenaeum.springbootobservabilitystudy.services;
 
+import in.athenaeum.springbootobservabilitystudy.config.AppLog;
 import in.athenaeum.springbootobservabilitystudy.exceptions.RecordNotFoundException;
 import in.athenaeum.springbootobservabilitystudy.models.Customer;
 import in.athenaeum.springbootobservabilitystudy.repositories.CustomerRepository;
@@ -19,6 +20,7 @@ public class CustomerServiceImplementation implements CustomerService {
         this.customerRepository = customerRepository;
     }
 
+    @AppLog
     @Override
     public List<CustomerViewModel> getAll() {
         return customerRepository
@@ -28,16 +30,19 @@ public class CustomerServiceImplementation implements CustomerService {
                 .toList();
     }
 
+    @AppLog
     @Override
     public CustomerViewModel getById(int customerId) throws RecordNotFoundException {
         return toViewModel(getEntityById(customerId));
     }
 
+    @AppLog
     @Override
     public CustomerViewModel create(CustomerCreateViewModel viewModel) {
         return toViewModel(customerRepository.saveAndFlush(toEntity(viewModel)));
     }
 
+    @AppLog
     @Override
     public CustomerViewModel update(int customerId, CustomerUpdateViewModel viewModel) throws RecordNotFoundException {
         Customer entityDb = getEntityById(customerId);
@@ -46,6 +51,7 @@ public class CustomerServiceImplementation implements CustomerService {
         return toViewModel(customerRepository.saveAndFlush(entityDb));
     }
 
+    @AppLog
     @Override
     public void deleteById(int customerId) throws RecordNotFoundException {
         customerRepository.delete(getEntityById(customerId));

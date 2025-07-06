@@ -61,8 +61,6 @@ public class CustomerApi {
     
     @ExceptionHandler(RecordNotFoundException.class)
     public ResponseEntity<Map<String, String>> handleRecordNotFoundException(RecordNotFoundException exception) {
-        //  warn: Indicates potential problems or unexpected situations such as: Deprecated API usage, slow responses, or recoverable errors
-        logger.warn(exception.getMessage(), exception);
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body(Map.of("message", exception.getMessage()));
     }
 }
