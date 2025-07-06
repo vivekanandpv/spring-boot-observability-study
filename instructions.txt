@@ -1,0 +1,16 @@
+Spring Boot Restart Delay Fix
+-----------------------------
+
+Enable Automatic Project Building in IntelliJ:
+IntelliJ needs to automatically compile your changes for DevTools to detect them.
+
+Go to Settings/Preferences -> Build, Execution, Deployment -> Compiler.
+
+Check the box for Build project automatically.
+
+Allow Auto-make to Run While the App is Running:
+This is a crucial step that many developers miss.
+
+Go to Settings/Preferences -> Advanced Settings.
+
+Under the Compiler section, check Allow auto-make to start even if developed application is currently running.
