@@ -1,8 +1,12 @@
 package in.athenaeum.springbootobservabilitystudy.viewmodels;
 
+import in.athenaeum.springbootobservabilitystudy.config.Sensitive;
+
 public class CustomerCreateViewModel {
     private String firstName;
     private String lastName;
+    
+    @Sensitive
     private String email;
 
     public String getFirstName() {

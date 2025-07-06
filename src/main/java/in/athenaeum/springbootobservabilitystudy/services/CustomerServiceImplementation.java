@@ -1,6 +1,7 @@
 package in.athenaeum.springbootobservabilitystudy.services;
 
 import in.athenaeum.springbootobservabilitystudy.config.AppLog;
+import in.athenaeum.springbootobservabilitystudy.config.Sensitive;
 import in.athenaeum.springbootobservabilitystudy.exceptions.RecordNotFoundException;
 import in.athenaeum.springbootobservabilitystudy.models.Customer;
 import in.athenaeum.springbootobservabilitystudy.repositories.CustomerRepository;
@@ -30,13 +31,13 @@ public class CustomerServiceImplementation implements CustomerService {
                 .toList();
     }
 
-    @AppLog
+    @AppLog(includeArgs = true)
     @Override
-    public CustomerViewModel getById(int customerId) throws RecordNotFoundException {
+    public CustomerViewModel getById(@Sensitive int customerId) throws RecordNotFoundException {
         return toViewModel(getEntityById(customerId));
     }
 
-    @AppLog
+    @AppLog(includeArgs = true)
     @Override
     public CustomerViewModel create(CustomerCreateViewModel viewModel) {
         return toViewModel(customerRepository.saveAndFlush(toEntity(viewModel)));

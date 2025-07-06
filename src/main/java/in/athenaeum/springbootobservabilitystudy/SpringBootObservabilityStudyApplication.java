@@ -13,7 +13,7 @@ public class SpringBootObservabilityStudyApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringBootObservabilityStudyApplication.class, args);
-        System.out.printf("Current logger implementation: %s", logger.getClass().getName());
+        logger.info("Current logger implementation: {}", logger.getClass().getName());
     }
 
 }

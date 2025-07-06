@@ -5138,3 +5138,661 @@ in.athenaeum.springbootobservabilitystudy.exceptions.RecordNotFoundException: Co
 2025-07-06 16:39:30 WARN  [HikariPool-35:housekeeper] HikariPool - HikariPool-35 - Thread starvation or clock leap detected (housekeeper delta=7m13s51ms).
 2025-07-06 16:57:15 WARN  [HikariPool-35:housekeeper] HikariPool - HikariPool-35 - Thread starvation or clock leap detected (housekeeper delta=17m15s23ms).
 2025-07-06 17:07:46 WARN  [HikariPool-35:housekeeper] HikariPool - HikariPool-35 - Thread starvation or clock leap detected (housekeeper delta=10m31s458ms).
+2025-07-06 17:17:28 INFO  [SpringApplicationShutdownHook] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 17:17:28 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 17:17:28 INFO  [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:17:28 INFO  [SpringApplicationShutdownHook] HikariDataSource - HikariPool-35 - Shutdown initiated...
+2025-07-06 17:17:28 INFO  [SpringApplicationShutdownHook] HikariDataSource - HikariPool-35 - Shutdown completed.
+2025-07-06 17:17:29 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 57561 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 17:17:29 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 17:17:29 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 17:17:29 INFO  [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-06 17:17:29 INFO  [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-06 17:17:30 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 17:17:30 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2025-07-06 17:17:30 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 17:17:30 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:17:30 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 17:17:30 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 17:17:30 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 17:17:30 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 538 ms
+2025-07-06 17:17:30 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 17:17:30 INFO  [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+2025-07-06 17:17:30 INFO  [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:./app-db user=SA
+2025-07-06 17:17:30 INFO  [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+2025-07-06 17:17:30 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:17:30 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 17:17:31 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 17:17:31 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 17:17:31 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 17:17:31 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:17:31 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 17:17:31 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 1.579 seconds (process running for 1.977)
+2025-07-06 17:17:31 INFO  [RMI TCP Connection(3)-127.0.0.1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-06 17:17:31 INFO  [RMI TCP Connection(3)-127.0.0.1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-06 17:17:31 INFO  [RMI TCP Connection(3)-127.0.0.1] DispatcherServlet - Completed initialization in 0 ms
+2025-07-06 17:17:44 DEBUG [http-nio-8080-exec-2] LoggingAspect - in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation#getById execution starts
+2025-07-06 17:17:44 DEBUG [http-nio-8080-exec-2] LoggingAspect - in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation#getById execution completes in 22ms
+2025-07-06 17:17:51 DEBUG [http-nio-8080-exec-3] LoggingAspect - in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation#getById execution starts
+2025-07-06 17:17:51 DEBUG [http-nio-8080-exec-3] LoggingAspect - in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation#getById execution completes in 1ms
+2025-07-06 17:17:55 DEBUG [http-nio-8080-exec-4] LoggingAspect - in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation#getById execution starts
+2025-07-06 17:17:55 DEBUG [http-nio-8080-exec-4] LoggingAspect - in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation#getById execution completes in 1ms
+2025-07-06 17:17:58 DEBUG [http-nio-8080-exec-5] LoggingAspect - in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation#getById execution starts
+2025-07-06 17:17:58 DEBUG [http-nio-8080-exec-5] LoggingAspect - in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation#getById execution completes in 1ms
+2025-07-06 17:48:41 WARN  [HikariPool-1:housekeeper] HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m40s837ms).
+2025-07-06 17:49:28 INFO  [File Watcher] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-07-06 17:49:28 INFO  [Thread-6] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 17:49:28 INFO  [tomcat-shutdown] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:49:28 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 17:49:28 INFO  [Thread-6] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:49:28 INFO  [Thread-6] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:49:28 INFO  [Thread-6] HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-06 17:49:28 INFO  [Thread-6] HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-06 17:49:28 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 57561 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 17:49:28 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 17:49:28 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 17:49:28 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 17:49:28 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2025-07-06 17:49:28 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 17:49:28 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:49:28 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 17:49:28 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 17:49:28 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 17:49:28 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 134 ms
+2025-07-06 17:49:28 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 17:49:28 INFO  [restartedMain] HikariDataSource - HikariPool-2 - Starting...
+2025-07-06 17:49:28 INFO  [restartedMain] HikariPool - HikariPool-2 - Added connection conn20: url=jdbc:h2:./app-db user=SA
+2025-07-06 17:49:28 INFO  [restartedMain] HikariDataSource - HikariPool-2 - Start completed.
+2025-07-06 17:49:28 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:49:28 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 17:49:28 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 17:49:28 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 17:49:28 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 17:49:28 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:49:28 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 17:49:28 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 0.36 seconds (process running for 1788.73)
+2025-07-06 17:49:28 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-06 17:49:48 INFO  [File Watcher] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-06 17:49:48 INFO  [Thread-8] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 17:49:48 INFO  [tomcat-shutdown] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:49:48 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 17:49:48 INFO  [Thread-8] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:49:48 INFO  [Thread-8] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:49:48 INFO  [Thread-8] HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-07-06 17:49:48 INFO  [Thread-8] HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-07-06 17:49:48 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 57561 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 17:49:48 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 17:49:48 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 17:49:48 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 17:49:48 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-07-06 17:49:48 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 17:49:48 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:49:48 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 17:49:48 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 17:49:48 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 17:49:48 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 106 ms
+2025-07-06 17:49:48 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 17:49:48 INFO  [restartedMain] HikariDataSource - HikariPool-3 - Starting...
+2025-07-06 17:49:48 INFO  [restartedMain] HikariPool - HikariPool-3 - Added connection conn30: url=jdbc:h2:./app-db user=SA
+2025-07-06 17:49:48 INFO  [restartedMain] HikariDataSource - HikariPool-3 - Start completed.
+2025-07-06 17:49:48 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:49:48 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 17:49:48 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 17:49:48 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 17:49:48 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 17:49:48 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:49:48 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 17:49:48 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 0.308 seconds (process running for 1808.878)
+2025-07-06 17:49:48 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-06 17:50:12 INFO  [File Watcher] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-07-06 17:50:12 INFO  [Thread-12] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 17:50:12 INFO  [tomcat-shutdown] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:50:12 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 17:50:12 INFO  [Thread-12] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:50:12 INFO  [Thread-12] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:50:12 INFO  [Thread-12] HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-07-06 17:50:12 INFO  [Thread-12] HikariDataSource - HikariPool-3 - Shutdown completed.
+2025-07-06 17:50:12 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 57561 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 17:50:12 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 17:50:12 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 17:50:12 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 17:50:12 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-07-06 17:50:12 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 17:50:12 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:50:12 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 17:50:12 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 17:50:12 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 17:50:12 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 108 ms
+2025-07-06 17:50:12 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 17:50:12 INFO  [restartedMain] HikariDataSource - HikariPool-4 - Starting...
+2025-07-06 17:50:12 INFO  [restartedMain] HikariPool - HikariPool-4 - Added connection conn40: url=jdbc:h2:./app-db user=SA
+2025-07-06 17:50:12 INFO  [restartedMain] HikariDataSource - HikariPool-4 - Start completed.
+2025-07-06 17:50:12 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:50:12 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 17:50:12 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 17:50:12 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 17:50:12 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 17:50:12 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:50:12 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 17:50:12 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 0.302 seconds (process running for 1832.896)
+2025-07-06 17:50:12 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-06 17:50:54 INFO  [File Watcher] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-06 17:50:54 INFO  [Thread-16] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 17:50:54 INFO  [tomcat-shutdown] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:50:54 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 17:50:54 INFO  [Thread-16] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:50:54 INFO  [Thread-16] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:50:54 INFO  [Thread-16] HikariDataSource - HikariPool-4 - Shutdown initiated...
+2025-07-06 17:50:54 INFO  [Thread-16] HikariDataSource - HikariPool-4 - Shutdown completed.
+2025-07-06 17:50:54 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 57561 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 17:50:54 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 17:50:54 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 17:50:54 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 17:50:54 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-07-06 17:50:54 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 17:50:54 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:50:54 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 17:50:54 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 17:50:54 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 17:50:54 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 104 ms
+2025-07-06 17:50:54 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 17:50:54 INFO  [restartedMain] HikariDataSource - HikariPool-5 - Starting...
+2025-07-06 17:50:54 INFO  [restartedMain] HikariPool - HikariPool-5 - Added connection conn50: url=jdbc:h2:./app-db user=SA
+2025-07-06 17:50:54 INFO  [restartedMain] HikariDataSource - HikariPool-5 - Start completed.
+2025-07-06 17:50:54 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:50:55 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 17:50:55 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 17:50:55 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 17:50:55 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 17:50:55 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:50:55 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 17:50:55 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 0.302 seconds (process running for 1875.071)
+2025-07-06 17:50:55 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-06 17:52:41 INFO  [File Watcher] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-07-06 17:52:41 INFO  [Thread-20] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 17:52:41 INFO  [tomcat-shutdown] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:52:41 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 17:52:41 INFO  [Thread-20] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:52:41 INFO  [Thread-20] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:52:41 INFO  [Thread-20] HikariDataSource - HikariPool-5 - Shutdown initiated...
+2025-07-06 17:52:42 INFO  [Thread-20] HikariDataSource - HikariPool-5 - Shutdown completed.
+2025-07-06 17:52:42 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 57561 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 17:52:42 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 17:52:42 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 17:52:42 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 17:52:42 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-07-06 17:52:42 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 17:52:42 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:52:42 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 17:52:42 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 17:52:42 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 17:52:42 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 112 ms
+2025-07-06 17:52:42 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 17:52:42 INFO  [restartedMain] HikariDataSource - HikariPool-6 - Starting...
+2025-07-06 17:52:42 INFO  [restartedMain] HikariPool - HikariPool-6 - Added connection conn60: url=jdbc:h2:./app-db user=SA
+2025-07-06 17:52:42 INFO  [restartedMain] HikariDataSource - HikariPool-6 - Start completed.
+2025-07-06 17:52:42 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:52:42 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 17:52:42 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 17:52:42 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 17:52:42 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 17:52:42 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:52:42 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 17:52:42 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 0.29 seconds (process running for 1982.371)
+2025-07-06 17:52:42 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-06 17:53:17 INFO  [File Watcher] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-07-06 17:53:17 INFO  [Thread-24] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 17:53:17 INFO  [tomcat-shutdown] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:53:17 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 17:53:17 INFO  [Thread-24] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:53:17 INFO  [Thread-24] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:53:17 INFO  [Thread-24] HikariDataSource - HikariPool-6 - Shutdown initiated...
+2025-07-06 17:53:17 INFO  [Thread-24] HikariDataSource - HikariPool-6 - Shutdown completed.
+2025-07-06 17:53:17 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 57561 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 17:53:17 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 17:53:17 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 17:53:17 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 17:53:17 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-07-06 17:53:17 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 17:53:17 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:53:17 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 17:53:17 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 17:53:17 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 17:53:17 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 101 ms
+2025-07-06 17:53:17 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 17:53:17 INFO  [restartedMain] HikariDataSource - HikariPool-7 - Starting...
+2025-07-06 17:53:17 INFO  [restartedMain] HikariPool - HikariPool-7 - Added connection conn70: url=jdbc:h2:./app-db user=SA
+2025-07-06 17:53:17 INFO  [restartedMain] HikariDataSource - HikariPool-7 - Start completed.
+2025-07-06 17:53:17 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:53:17 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 17:53:17 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 17:53:17 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 17:53:17 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 17:53:17 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:53:17 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 17:53:17 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 0.275 seconds (process running for 2017.696)
+2025-07-06 17:53:17 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-06 17:53:46 INFO  [File Watcher] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-07-06 17:53:46 INFO  [Thread-28] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 17:53:46 INFO  [tomcat-shutdown] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:53:46 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 17:53:46 INFO  [Thread-28] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:53:46 INFO  [Thread-28] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:53:46 INFO  [Thread-28] HikariDataSource - HikariPool-7 - Shutdown initiated...
+2025-07-06 17:53:46 INFO  [Thread-28] HikariDataSource - HikariPool-7 - Shutdown completed.
+2025-07-06 17:53:46 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 57561 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 17:53:46 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 17:53:46 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 17:53:46 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 17:53:46 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-07-06 17:53:46 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 17:53:46 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:53:46 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 17:53:46 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 17:53:46 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 17:53:46 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 104 ms
+2025-07-06 17:53:46 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 17:53:46 INFO  [restartedMain] HikariDataSource - HikariPool-8 - Starting...
+2025-07-06 17:53:46 INFO  [restartedMain] HikariPool - HikariPool-8 - Added connection conn80: url=jdbc:h2:./app-db user=SA
+2025-07-06 17:53:46 INFO  [restartedMain] HikariDataSource - HikariPool-8 - Start completed.
+2025-07-06 17:53:46 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:53:46 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 17:53:46 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 17:53:46 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 17:53:46 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 17:53:46 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:53:46 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 17:53:46 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 0.282 seconds (process running for 2046.803)
+2025-07-06 17:53:46 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-06 17:54:55 INFO  [File Watcher] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-06 17:54:55 INFO  [Thread-32] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 17:54:55 INFO  [tomcat-shutdown] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:54:55 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 17:54:55 INFO  [Thread-32] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:54:55 INFO  [Thread-32] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:54:55 INFO  [Thread-32] HikariDataSource - HikariPool-8 - Shutdown initiated...
+2025-07-06 17:54:56 INFO  [Thread-32] HikariDataSource - HikariPool-8 - Shutdown completed.
+2025-07-06 17:54:56 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 57561 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 17:54:56 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 17:54:56 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 17:54:56 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 17:54:56 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-07-06 17:54:56 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 17:54:56 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:54:56 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 17:54:56 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 17:54:56 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 17:54:56 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 104 ms
+2025-07-06 17:54:56 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 17:54:56 INFO  [restartedMain] HikariDataSource - HikariPool-9 - Starting...
+2025-07-06 17:54:56 INFO  [restartedMain] HikariPool - HikariPool-9 - Added connection conn90: url=jdbc:h2:./app-db user=SA
+2025-07-06 17:54:56 INFO  [restartedMain] HikariDataSource - HikariPool-9 - Start completed.
+2025-07-06 17:54:56 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:54:56 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 17:54:56 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 17:54:56 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 17:54:56 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 17:54:56 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:54:56 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 17:54:56 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 0.281 seconds (process running for 2116.406)
+2025-07-06 17:54:56 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-06 17:54:56 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Current logger implementation: org.apache.logging.slf4j.Log4jLogger
+2025-07-06 17:57:30 INFO  [File Watcher] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-06 17:57:30 INFO  [Thread-36] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 17:57:30 INFO  [tomcat-shutdown] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:57:30 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 17:57:30 INFO  [Thread-36] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:57:30 INFO  [Thread-36] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:57:30 INFO  [Thread-36] HikariDataSource - HikariPool-9 - Shutdown initiated...
+2025-07-06 17:57:30 INFO  [Thread-36] HikariDataSource - HikariPool-9 - Shutdown completed.
+2025-07-06 17:57:30 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 57561 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 17:57:30 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 17:57:30 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 17:57:30 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 17:57:30 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-07-06 17:57:31 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 17:57:31 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:57:31 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 17:57:31 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 17:57:31 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 17:57:31 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 98 ms
+2025-07-06 17:57:31 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 17:57:31 INFO  [restartedMain] HikariDataSource - HikariPool-10 - Starting...
+2025-07-06 17:57:31 INFO  [restartedMain] HikariPool - HikariPool-10 - Added connection conn100: url=jdbc:h2:./app-db user=SA
+2025-07-06 17:57:31 INFO  [restartedMain] HikariDataSource - HikariPool-10 - Start completed.
+2025-07-06 17:57:31 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:57:31 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 17:57:31 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 17:57:31 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 17:57:31 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 17:57:31 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:57:31 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 17:57:31 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 0.273 seconds (process running for 2271.125)
+2025-07-06 17:57:31 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-06 17:57:31 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Current logger implementation: org.apache.logging.slf4j.Log4jLogger
+2025-07-06 17:57:42 INFO  [File Watcher] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-06 17:57:42 INFO  [Thread-40] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 17:57:42 INFO  [tomcat-shutdown] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:57:42 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 17:57:42 INFO  [Thread-40] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:57:42 INFO  [Thread-40] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:57:42 INFO  [Thread-40] HikariDataSource - HikariPool-10 - Shutdown initiated...
+2025-07-06 17:57:42 INFO  [Thread-40] HikariDataSource - HikariPool-10 - Shutdown completed.
+2025-07-06 17:57:42 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 57561 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 17:57:42 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 17:57:42 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 17:57:43 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 17:57:43 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-07-06 17:57:43 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 17:57:43 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:57:43 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 17:57:43 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 17:57:43 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 17:57:43 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 99 ms
+2025-07-06 17:57:43 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 17:57:43 INFO  [restartedMain] HikariDataSource - HikariPool-11 - Starting...
+2025-07-06 17:57:43 INFO  [restartedMain] HikariPool - HikariPool-11 - Added connection conn110: url=jdbc:h2:./app-db user=SA
+2025-07-06 17:57:43 INFO  [restartedMain] HikariDataSource - HikariPool-11 - Start completed.
+2025-07-06 17:57:43 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:57:43 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 17:57:43 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 17:57:43 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 17:57:43 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 17:57:43 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:57:43 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 17:57:43 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 0.28 seconds (process running for 2283.191)
+2025-07-06 17:57:43 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-06 17:57:43 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Current logger implementation: org.apache.logging.slf4j.Log4jLogger
+2025-07-06 17:57:45 INFO  [File Watcher] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-06 17:57:45 INFO  [Thread-44] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 17:57:45 INFO  [tomcat-shutdown] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:57:45 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 17:57:45 INFO  [Thread-44] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:57:45 INFO  [Thread-44] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:57:45 INFO  [Thread-44] HikariDataSource - HikariPool-11 - Shutdown initiated...
+2025-07-06 17:57:45 INFO  [Thread-44] HikariDataSource - HikariPool-11 - Shutdown completed.
+2025-07-06 17:57:45 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 57561 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 17:57:45 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 17:57:45 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 17:57:45 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 17:57:45 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-07-06 17:57:45 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 17:57:45 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:57:45 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 17:57:45 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 17:57:45 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 17:57:45 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 101 ms
+2025-07-06 17:57:45 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 17:57:45 INFO  [restartedMain] HikariDataSource - HikariPool-12 - Starting...
+2025-07-06 17:57:45 INFO  [restartedMain] HikariPool - HikariPool-12 - Added connection conn120: url=jdbc:h2:./app-db user=SA
+2025-07-06 17:57:45 INFO  [restartedMain] HikariDataSource - HikariPool-12 - Start completed.
+2025-07-06 17:57:45 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:57:45 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 17:57:46 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 17:57:46 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 17:57:46 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 17:57:46 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:57:46 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 17:57:46 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 0.274 seconds (process running for 2285.994)
+2025-07-06 17:57:46 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-06 17:57:46 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Current logger implementation: org.apache.logging.slf4j.Log4jLogger
+2025-07-06 17:58:10 INFO  [File Watcher] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-06 17:58:10 INFO  [Thread-48] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 17:58:10 INFO  [tomcat-shutdown] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:58:10 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 17:58:10 INFO  [Thread-48] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:58:10 INFO  [Thread-48] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:58:10 INFO  [Thread-48] HikariDataSource - HikariPool-12 - Shutdown initiated...
+2025-07-06 17:58:10 INFO  [Thread-48] HikariDataSource - HikariPool-12 - Shutdown completed.
+2025-07-06 17:58:10 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 57561 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 17:58:10 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 17:58:10 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 17:58:10 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 17:58:10 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-07-06 17:58:10 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 17:58:10 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:58:10 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 17:58:10 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 17:58:10 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 17:58:10 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 100 ms
+2025-07-06 17:58:10 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 17:58:10 INFO  [restartedMain] HikariDataSource - HikariPool-13 - Starting...
+2025-07-06 17:58:10 INFO  [restartedMain] HikariPool - HikariPool-13 - Added connection conn130: url=jdbc:h2:./app-db user=SA
+2025-07-06 17:58:10 INFO  [restartedMain] HikariDataSource - HikariPool-13 - Start completed.
+2025-07-06 17:58:10 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:58:10 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 17:58:11 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 17:58:11 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 17:58:11 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 17:58:11 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:58:11 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 17:58:11 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 0.289 seconds (process running for 2311.0)
+2025-07-06 17:58:11 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-06 17:58:11 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Current logger implementation: org.apache.logging.slf4j.Log4jLogger
+2025-07-06 17:58:16 INFO  [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-06 17:58:16 INFO  [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-06 17:58:16 INFO  [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 2 ms
+2025-07-06 17:58:16 DEBUG [http-nio-8080-exec-2] LoggingAspect - in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation#getById execution starts
+2025-07-06 17:58:16 DEBUG [http-nio-8080-exec-2] LoggingAspect - in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation#getById execution completes in 5ms
+2025-07-06 17:58:45 INFO  [File Watcher] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-06 17:58:45 INFO  [Thread-52] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 17:58:45 INFO  [tomcat-shutdown] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:58:45 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 17:58:45 INFO  [Thread-52] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:58:45 INFO  [Thread-52] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:58:45 INFO  [Thread-52] HikariDataSource - HikariPool-13 - Shutdown initiated...
+2025-07-06 17:58:45 INFO  [Thread-52] HikariDataSource - HikariPool-13 - Shutdown completed.
+2025-07-06 17:58:45 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 57561 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 17:58:45 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 17:58:45 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 17:58:46 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 17:58:46 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-07-06 17:58:46 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 17:58:46 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:58:46 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 17:58:46 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 17:58:46 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 17:58:46 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 117 ms
+2025-07-06 17:58:46 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 17:58:46 INFO  [restartedMain] HikariDataSource - HikariPool-14 - Starting...
+2025-07-06 17:58:46 INFO  [restartedMain] HikariPool - HikariPool-14 - Added connection conn140: url=jdbc:h2:./app-db user=SA
+2025-07-06 17:58:46 INFO  [restartedMain] HikariDataSource - HikariPool-14 - Start completed.
+2025-07-06 17:58:46 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 17:58:46 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 17:58:46 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 17:58:46 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 17:58:46 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 17:58:46 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 17:58:46 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 17:58:46 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 0.29 seconds (process running for 2346.184)
+2025-07-06 17:58:46 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-06 17:58:46 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Current logger implementation: org.apache.logging.slf4j.Log4jLogger
+2025-07-06 17:58:50 INFO  [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-06 17:58:50 INFO  [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-06 17:58:50 INFO  [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 1 ms
+2025-07-06 17:58:50 DEBUG [http-nio-8080-exec-2] LoggingAspect - in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation#getById execution starts with args: [1]
+2025-07-06 17:58:50 DEBUG [http-nio-8080-exec-2] LoggingAspect - in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation#getById execution completes in 4ms
+2025-07-06 17:59:44 DEBUG [http-nio-8080-exec-3] LoggingAspect - in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation#create execution starts with args: [CustomerCreateViewModel{firstName=Rajesh, lastName=Krishnan, email=***MASKED***}]
+2025-07-06 17:59:44 DEBUG [http-nio-8080-exec-3] LoggingAspect - in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation#create execution completes in 19ms
+2025-07-06 18:04:41 INFO  [File Watcher] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-06 18:04:41 INFO  [Thread-56] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 18:04:41 INFO  [tomcat-shutdown] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-07-06 18:04:41 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 18:04:41 INFO  [Thread-56] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-06 18:04:41 INFO  [Thread-56] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 18:04:41 INFO  [Thread-56] HikariDataSource - HikariPool-14 - Shutdown initiated...
+2025-07-06 18:04:42 INFO  [Thread-56] HikariDataSource - HikariPool-14 - Shutdown completed.
+2025-07-06 18:04:42 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 57561 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 18:04:42 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 18:04:42 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 18:04:42 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 18:04:42 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-07-06 18:04:42 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 18:04:42 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 18:04:42 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 18:04:42 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 18:04:42 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 18:04:42 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 108 ms
+2025-07-06 18:04:42 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 18:04:42 INFO  [restartedMain] HikariDataSource - HikariPool-15 - Starting...
+2025-07-06 18:04:42 INFO  [restartedMain] HikariPool - HikariPool-15 - Added connection conn150: url=jdbc:h2:./app-db user=SA
+2025-07-06 18:04:42 INFO  [restartedMain] HikariDataSource - HikariPool-15 - Start completed.
+2025-07-06 18:04:42 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 18:04:42 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 18:04:42 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 18:04:42 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 18:04:42 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 18:04:42 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 18:04:42 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 18:04:42 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 0.306 seconds (process running for 2702.435)
+2025-07-06 18:04:42 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-06 18:04:42 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Current logger implementation: org.apache.logging.slf4j.Log4jLogger
+2025-07-06 18:04:51 INFO  [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-06 18:04:51 INFO  [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-06 18:04:51 INFO  [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 2 ms
+2025-07-06 18:04:51 DEBUG [http-nio-8080-exec-2] LoggingAspect - in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation#getById execution starts with args: [2]
+2025-07-06 18:04:51 DEBUG [http-nio-8080-exec-2] LoggingAspect - in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation#getById execution completes in 5ms
+2025-07-06 18:05:37 INFO  [SpringApplicationShutdownHook] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 18:05:37 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 18:05:37 INFO  [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 18:05:37 INFO  [SpringApplicationShutdownHook] HikariDataSource - HikariPool-15 - Shutdown initiated...
+2025-07-06 18:05:37 INFO  [SpringApplicationShutdownHook] HikariDataSource - HikariPool-15 - Shutdown completed.
+2025-07-06 18:05:41 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 58311 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 18:05:41 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 18:05:41 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 18:05:41 INFO  [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-06 18:05:41 INFO  [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-06 18:05:42 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 18:05:42 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interface.
+2025-07-06 18:05:42 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 18:05:42 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 18:05:42 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 18:05:42 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 18:05:42 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 18:05:42 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 620 ms
+2025-07-06 18:05:42 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 18:05:42 INFO  [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+2025-07-06 18:05:42 INFO  [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:./app-db user=SA
+2025-07-06 18:05:42 INFO  [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+2025-07-06 18:05:43 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 18:05:43 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 18:05:43 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 18:05:43 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 18:05:43 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 18:05:43 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 18:05:43 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 18:05:43 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 1.876 seconds (process running for 2.569)
+2025-07-06 18:05:43 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Current logger implementation: org.apache.logging.slf4j.Log4jLogger
+2025-07-06 18:05:43 INFO  [RMI TCP Connection(1)-127.0.0.1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-06 18:05:43 INFO  [RMI TCP Connection(1)-127.0.0.1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-06 18:05:43 INFO  [RMI TCP Connection(1)-127.0.0.1] DispatcherServlet - Completed initialization in 1 ms
+2025-07-06 18:06:28 WARN  [HikariPool-1:housekeeper] HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s980ms).
+2025-07-06 18:06:28 DEBUG [http-nio-8080-exec-2] LoggingAspect - in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation#getById execution starts with args: [2]
+2025-07-06 18:06:28 DEBUG [http-nio-8080-exec-2] LoggingAspect - in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation#getById execution completes in 40080ms
+2025-07-06 18:06:28 INFO  [SpringApplicationShutdownHook] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 18:06:28 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 18:06:28 INFO  [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 18:06:28 INFO  [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-06 18:06:29 INFO  [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-06 18:10:57 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 58389 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 18:10:57 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 18:10:57 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 18:10:57 INFO  [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-06 18:10:57 INFO  [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-06 18:10:57 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 18:10:57 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2025-07-06 18:10:57 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 18:10:57 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 18:10:57 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 18:10:57 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 18:10:57 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 18:10:57 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 505 ms
+2025-07-06 18:10:58 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 18:10:58 INFO  [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+2025-07-06 18:10:58 INFO  [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:./app-db user=SA
+2025-07-06 18:10:58 INFO  [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+2025-07-06 18:10:58 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 18:10:58 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 18:10:58 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 18:10:58 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 18:10:58 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 18:10:58 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 18:10:58 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 18:10:58 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 1.555 seconds (process running for 1.932)
+2025-07-06 18:10:58 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Current logger implementation: org.apache.logging.slf4j.Log4jLogger
+2025-07-06 18:10:58 INFO  [RMI TCP Connection(4)-127.0.0.1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-06 18:10:58 INFO  [RMI TCP Connection(4)-127.0.0.1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-06 18:10:58 INFO  [RMI TCP Connection(4)-127.0.0.1] DispatcherServlet - Completed initialization in 0 ms
+2025-07-06 18:11:02 DEBUG [http-nio-8080-exec-2] LoggingAspect - in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation#getById execution starts with args: [[customerId=***MASKED***]]
+2025-07-06 18:11:02 DEBUG [http-nio-8080-exec-2] LoggingAspect - in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation#getById execution completes in 29ms
+2025-07-06 18:11:51 INFO  [File Watcher] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-07-06 18:11:51 INFO  [Thread-6] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 18:11:51 INFO  [tomcat-shutdown] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-07-06 18:11:51 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 18:11:51 INFO  [Thread-6] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-06 18:11:51 INFO  [Thread-6] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 18:11:51 INFO  [Thread-6] HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-06 18:11:51 INFO  [Thread-6] HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-06 18:11:51 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 58389 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 18:11:51 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 18:11:51 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 18:11:51 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 18:11:51 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2025-07-06 18:11:51 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 18:11:51 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 18:11:51 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 18:11:51 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 18:11:51 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 18:11:51 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 120 ms
+2025-07-06 18:11:51 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 18:11:51 INFO  [restartedMain] HikariDataSource - HikariPool-2 - Starting...
+2025-07-06 18:11:51 INFO  [restartedMain] HikariPool - HikariPool-2 - Added connection conn10: url=jdbc:h2:./app-db user=SA
+2025-07-06 18:11:51 INFO  [restartedMain] HikariDataSource - HikariPool-2 - Start completed.
+2025-07-06 18:11:51 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 18:11:51 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 18:11:51 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 18:11:51 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 18:11:51 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 18:11:51 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 18:11:51 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 18:11:51 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 0.332 seconds (process running for 54.873)
+2025-07-06 18:11:51 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-06 18:11:51 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Current logger implementation: org.apache.logging.slf4j.Log4jLogger
+2025-07-06 18:11:55 INFO  [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-06 18:11:55 INFO  [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-06 18:11:55 INFO  [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 2 ms
+2025-07-06 18:11:55 DEBUG [http-nio-8080-exec-2] LoggingAspect - in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation#getById execution starts with args: [customerId=***MASKED***]
+2025-07-06 18:11:55 DEBUG [http-nio-8080-exec-2] LoggingAspect - in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation#getById execution completes in 6ms
+2025-07-06 18:13:11 INFO  [File Watcher] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-07-06 18:13:11 INFO  [Thread-8] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 18:13:11 INFO  [tomcat-shutdown] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-07-06 18:13:11 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 18:13:11 INFO  [Thread-8] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-06 18:13:11 INFO  [Thread-8] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 18:13:11 INFO  [Thread-8] HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-07-06 18:13:11 INFO  [Thread-8] HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-07-06 18:13:11 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 58389 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 18:13:11 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 18:13:11 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 18:13:11 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 18:13:11 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-07-06 18:13:11 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 18:13:11 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 18:13:11 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 18:13:11 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 18:13:11 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 18:13:11 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 122 ms
+2025-07-06 18:13:11 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 18:13:11 INFO  [restartedMain] HikariDataSource - HikariPool-3 - Starting...
+2025-07-06 18:13:11 INFO  [restartedMain] HikariPool - HikariPool-3 - Added connection conn20: url=jdbc:h2:./app-db user=SA
+2025-07-06 18:13:11 INFO  [restartedMain] HikariDataSource - HikariPool-3 - Start completed.
+2025-07-06 18:13:11 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 18:13:11 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 18:13:11 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 18:13:11 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 18:13:11 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 18:13:11 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 18:13:11 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 18:13:11 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 0.309 seconds (process running for 134.903)
+2025-07-06 18:13:11 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-06 18:13:11 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Current logger implementation: org.apache.logging.slf4j.Log4jLogger
