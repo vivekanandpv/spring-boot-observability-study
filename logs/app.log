@@ -1,0 +1,539 @@
+2025-07-06 12:11:25 INFO  [File Watcher] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-06 12:11:25 INFO  [Thread-8] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 12:11:25 INFO  [tomcat-shutdown] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-07-06 12:11:25 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 12:11:25 INFO  [Thread-8] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-06 12:11:25 INFO  [Thread-8] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 12:11:25 INFO  [Thread-8] HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-07-06 12:11:25 INFO  [Thread-8] HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-07-06 12:11:25 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 53240 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 12:11:25 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 12:11:25 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 12:11:25 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 12:11:25 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-07-06 12:11:25 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 12:11:25 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 12:11:25 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 12:11:25 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 12:11:25 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 12:11:25 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 109 ms
+2025-07-06 12:11:25 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 12:11:25 INFO  [restartedMain] HikariDataSource - HikariPool-3 - Starting...
+2025-07-06 12:11:25 INFO  [restartedMain] HikariPool - HikariPool-3 - Added connection conn20: url=jdbc:h2:./app-db user=SA
+2025-07-06 12:11:25 INFO  [restartedMain] HikariDataSource - HikariPool-3 - Start completed.
+2025-07-06 12:11:25 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 12:11:25 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 12:11:25 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 12:11:25 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 12:11:25 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 12:11:25 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 12:11:25 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 12:11:25 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 0.261 seconds (process running for 1142.461)
+2025-07-06 12:11:25 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-06 12:11:34 INFO  [SpringApplicationShutdownHook] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 12:11:34 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 12:11:34 INFO  [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 12:11:34 INFO  [SpringApplicationShutdownHook] HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-07-06 12:11:34 INFO  [SpringApplicationShutdownHook] HikariDataSource - HikariPool-3 - Shutdown completed.
+2025-07-06 12:11:36 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 53469 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 12:11:36 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 12:11:36 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 12:11:36 INFO  [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-06 12:11:36 INFO  [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-06 12:11:36 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 12:11:36 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
+2025-07-06 12:11:36 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 12:11:36 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 12:11:36 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 12:11:36 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 12:11:36 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 12:11:36 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 478 ms
+2025-07-06 12:11:36 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 12:11:36 INFO  [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+2025-07-06 12:11:36 INFO  [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:./app-db user=SA
+2025-07-06 12:11:36 INFO  [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+2025-07-06 12:11:37 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 12:11:37 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 12:11:37 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 12:11:37 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 12:11:37 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 12:11:37 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 12:11:37 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 12:11:37 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 1.445 seconds (process running for 1.786)
+2025-07-06 12:11:37 INFO  [RMI TCP Connection(3)-127.0.0.1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-06 12:11:37 INFO  [RMI TCP Connection(3)-127.0.0.1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-06 12:11:37 INFO  [RMI TCP Connection(3)-127.0.0.1] DispatcherServlet - Completed initialization in 1 ms
+2025-07-06 12:11:55 WARN  [http-nio-8080-exec-2] CustomerApi - Could not find the customer with id: 12
+in.athenaeum.springbootobservabilitystudy.exceptions.RecordNotFoundException: Could not find the customer with id: 12
+	at in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation.lambda$getEntityById$0(CustomerServiceImplementation.java:68) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation.getEntityById(CustomerServiceImplementation.java:68) ~[classes/:?]
+	at in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation.getById(CustomerServiceImplementation.java:33) ~[classes/:?]
+	at in.athenaeum.springbootobservabilitystudy.apis.CustomerApi.getById(CustomerApi.java:43) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.42.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.42.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2025-07-06 12:11:55 WARN  [http-nio-8080-exec-2] ExceptionHandlerExceptionResolver - Resolved [in.athenaeum.springbootobservabilitystudy.exceptions.RecordNotFoundException: Could not find the customer with id: 12]
+2025-07-06 12:15:18 INFO  [File Watcher] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
+2025-07-06 12:15:18 INFO  [Thread-6] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 12:15:18 INFO  [tomcat-shutdown] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-07-06 12:15:18 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 12:15:18 INFO  [Thread-6] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-06 12:15:18 INFO  [Thread-6] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 12:15:18 INFO  [Thread-6] HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-06 12:15:18 INFO  [Thread-6] HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-06 13:00:10 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 54332 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 13:00:10 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 13:00:10 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 13:00:10 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 13:00:10 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-07-06 13:00:10 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 13:00:10 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 13:00:10 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 13:00:10 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 13:00:10 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 13:00:10 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 114 ms
+2025-07-06 13:00:10 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 13:00:10 INFO  [restartedMain] HikariDataSource - HikariPool-2 - Starting...
+2025-07-06 13:00:10 INFO  [restartedMain] HikariPool - HikariPool-2 - Added connection conn10: url=jdbc:h2:./app-db user=SA
+2025-07-06 13:00:10 INFO  [restartedMain] HikariDataSource - HikariPool-2 - Start completed.
+2025-07-06 13:00:10 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 13:00:10 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 13:00:10 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 13:00:10 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 13:00:10 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 13:00:10 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 13:00:10 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 13:00:10 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 0.274 seconds (process running for 13.629)
+2025-07-06 13:00:10 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-06 13:00:31 INFO  [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-06 13:00:31 INFO  [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-06 13:00:31 INFO  [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 0 ms
+2025-07-06 13:00:31 WARN  [http-nio-8080-exec-1] CustomerApi - Could not find the customer with id: 12
+in.athenaeum.springbootobservabilitystudy.exceptions.RecordNotFoundException: Could not find the customer with id: 12
+	at in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation.lambda$getEntityById$0(CustomerServiceImplementation.java:68) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation.getEntityById(CustomerServiceImplementation.java:68) ~[classes/:?]
+	at in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation.getById(CustomerServiceImplementation.java:33) ~[classes/:?]
+	at in.athenaeum.springbootobservabilitystudy.apis.CustomerApi.getById(CustomerApi.java:43) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.42.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.42.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2025-07-06 13:00:31 WARN  [http-nio-8080-exec-1] ExceptionHandlerExceptionResolver - Resolved [in.athenaeum.springbootobservabilitystudy.exceptions.RecordNotFoundException: Could not find the customer with id: 12]
+2025-07-06 13:04:43 INFO  [File Watcher] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-06 13:04:43 INFO  [Thread-8] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 13:04:43 INFO  [tomcat-shutdown] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-07-06 13:04:43 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 13:04:43 INFO  [Thread-8] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-06 13:04:43 INFO  [Thread-8] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 13:04:43 INFO  [Thread-8] HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-07-06 13:04:43 INFO  [Thread-8] HikariDataSource - HikariPool-2 - Shutdown completed.
+[2m2025-07-06 13:04:43.884[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.SpringBootObservabilityStudyApplication[0;39m [2m:[0;39m Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 54332 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+[2m2025-07-06 13:04:43.884[0;39m [32mDEBUG[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.SpringBootObservabilityStudyApplication[0;39m [2m:[0;39m Running with Spring Boot v3.5.3, Spring v6.2.8
+[2m2025-07-06 13:04:43.884[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.SpringBootObservabilityStudyApplication[0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2025-07-06 13:04:43.957[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2025-07-06 13:04:43.959[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+[2m2025-07-06 13:04:43.985[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.e.t.TomcatWebServer             [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[2m2025-07-06 13:04:43.985[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.h.Http11NioProtocol               [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[2m2025-07-06 13:04:43.985[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.StandardService                 [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2025-07-06 13:04:43.985[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.StandardEngine                  [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.42]
+[2m2025-07-06 13:04:43.989[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[.[.[/]                       [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2025-07-06 13:04:43.989[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 104 ms
+[2m2025-07-06 13:04:44.012[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m [2m:[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+[2m2025-07-06 13:04:44.012[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mc.z.h.HikariDataSource                  [0;39m [2m:[0;39m HikariPool-3 - Starting...
+[2m2025-07-06 13:04:44.016[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mc.z.h.p.HikariPool                      [0;39m [2m:[0;39m HikariPool-3 - Added connection conn20: url=jdbc:h2:./app-db user=SA
+[2m2025-07-06 13:04:44.016[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mc.z.h.HikariDataSource                  [0;39m [2m:[0;39m HikariPool-3 - Start completed.
+[2m2025-07-06 13:04:44.027[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-07-06 13:04:44.046[0;39m [33m WARN[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2025-07-06 13:04:44.097[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.h.H2ConsoleAutoConfiguration    [0;39m [2m:[0;39m H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+[2m2025-07-06 13:04:44.100[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2025-07-06 13:04:44.101[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.e.w.EndpointLinksResolver       [0;39m [2m:[0;39m Exposing 3 endpoints beneath base path '/actuator'
+[2m2025-07-06 13:04:44.110[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.h.Http11NioProtocol               [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-8080"]
+[2m2025-07-06 13:04:44.111[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.e.t.TomcatWebServer             [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[2m2025-07-06 13:04:44.114[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.SpringBootObservabilityStudyApplication[0;39m [2m:[0;39m Started SpringBootObservabilityStudyApplication in 0.251 seconds (process running for 287.169)
+[2m2025-07-06 13:04:44.115[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2025-07-06 13:04:55.613[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[   File Watcher][0;39m [36mrtingClassPathChangeChangedEventListener[0;39m [2m:[0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2m2025-07-06 13:04:55.616[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[      Thread-12][0;39m [36mo.s.b.w.e.t.GracefulShutdown            [0;39m [2m:[0;39m Commencing graceful shutdown. Waiting for active requests to complete
+[2m2025-07-06 13:04:55.617[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[tomcat-shutdown][0;39m [36mo.a.c.h.Http11NioProtocol               [0;39m [2m:[0;39m Pausing ProtocolHandler ["http-nio-8080"]
+[2m2025-07-06 13:04:55.620[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[tomcat-shutdown][0;39m [36mo.s.b.w.e.t.GracefulShutdown            [0;39m [2m:[0;39m Graceful shutdown complete
+[2m2025-07-06 13:04:55.620[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[      Thread-12][0;39m [36mo.a.c.h.Http11NioProtocol               [0;39m [2m:[0;39m Stopping ProtocolHandler ["http-nio-8080"]
+[2m2025-07-06 13:04:55.624[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[      Thread-12][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-07-06 13:04:55.625[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[      Thread-12][0;39m [36mc.z.h.HikariDataSource                  [0;39m [2m:[0;39m HikariPool-3 - Shutdown initiated...
+[2m2025-07-06 13:04:55.710[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[      Thread-12][0;39m [36mc.z.h.HikariDataSource                  [0;39m [2m:[0;39m HikariPool-3 - Shutdown completed.
+[2m2025-07-06 13:04:55.796[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.SpringBootObservabilityStudyApplication[0;39m [2m:[0;39m Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 54332 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+[2m2025-07-06 13:04:55.797[0;39m [32mDEBUG[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.SpringBootObservabilityStudyApplication[0;39m [2m:[0;39m Running with Spring Boot v3.5.3, Spring v6.2.8
+[2m2025-07-06 13:04:55.797[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.SpringBootObservabilityStudyApplication[0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2025-07-06 13:04:55.862[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2025-07-06 13:04:55.864[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+[2m2025-07-06 13:04:55.890[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.e.t.TomcatWebServer             [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[2m2025-07-06 13:04:55.890[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.h.Http11NioProtocol               [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[2m2025-07-06 13:04:55.890[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.StandardService                 [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2025-07-06 13:04:55.890[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.StandardEngine                  [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.42]
+[2m2025-07-06 13:04:55.893[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[.[.[/]                       [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2025-07-06 13:04:55.893[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 96 ms
+[2m2025-07-06 13:04:55.915[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m [2m:[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+[2m2025-07-06 13:04:55.915[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mc.z.h.HikariDataSource                  [0;39m [2m:[0;39m HikariPool-4 - Starting...
+[2m2025-07-06 13:04:55.918[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mc.z.h.p.HikariPool                      [0;39m [2m:[0;39m HikariPool-4 - Added connection conn30: url=jdbc:h2:./app-db user=SA
+[2m2025-07-06 13:04:55.918[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mc.z.h.HikariDataSource                  [0;39m [2m:[0;39m HikariPool-4 - Start completed.
+[2m2025-07-06 13:04:55.929[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-07-06 13:04:55.948[0;39m [33m WARN[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2025-07-06 13:04:55.998[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.h.H2ConsoleAutoConfiguration    [0;39m [2m:[0;39m H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+[2m2025-07-06 13:04:56.001[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2025-07-06 13:04:56.001[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.e.w.EndpointLinksResolver       [0;39m [2m:[0;39m Exposing 3 endpoints beneath base path '/actuator'
+[2m2025-07-06 13:04:56.010[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.h.Http11NioProtocol               [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-8080"]
+[2m2025-07-06 13:04:56.011[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.e.t.TomcatWebServer             [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[2m2025-07-06 13:04:56.014[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.SpringBootObservabilityStudyApplication[0;39m [2m:[0;39m Started SpringBootObservabilityStudyApplication in 0.233 seconds (process running for 299.069)
+[2m2025-07-06 13:04:56.015[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2025-07-06 13:05:27.731[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[   File Watcher][0;39m [36mrtingClassPathChangeChangedEventListener[0;39m [2m:[0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2m2025-07-06 13:05:27.734[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[      Thread-16][0;39m [36mo.s.b.w.e.t.GracefulShutdown            [0;39m [2m:[0;39m Commencing graceful shutdown. Waiting for active requests to complete
+[2m2025-07-06 13:05:27.735[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[tomcat-shutdown][0;39m [36mo.a.c.h.Http11NioProtocol               [0;39m [2m:[0;39m Pausing ProtocolHandler ["http-nio-8080"]
+[2m2025-07-06 13:05:27.737[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[tomcat-shutdown][0;39m [36mo.s.b.w.e.t.GracefulShutdown            [0;39m [2m:[0;39m Graceful shutdown complete
+[2m2025-07-06 13:05:27.738[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[      Thread-16][0;39m [36mo.a.c.h.Http11NioProtocol               [0;39m [2m:[0;39m Stopping ProtocolHandler ["http-nio-8080"]
+[2m2025-07-06 13:05:27.740[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[      Thread-16][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-07-06 13:05:27.741[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[      Thread-16][0;39m [36mc.z.h.HikariDataSource                  [0;39m [2m:[0;39m HikariPool-4 - Shutdown initiated...
+[2m2025-07-06 13:05:27.957[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[      Thread-16][0;39m [36mc.z.h.HikariDataSource                  [0;39m [2m:[0;39m HikariPool-4 - Shutdown completed.
+[2m2025-07-06 13:05:28.045[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.SpringBootObservabilityStudyApplication[0;39m [2m:[0;39m Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 54332 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+[2m2025-07-06 13:05:28.045[0;39m [32mDEBUG[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.SpringBootObservabilityStudyApplication[0;39m [2m:[0;39m Running with Spring Boot v3.5.3, Spring v6.2.8
+[2m2025-07-06 13:05:28.045[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.SpringBootObservabilityStudyApplication[0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2025-07-06 13:05:28.112[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2025-07-06 13:05:28.113[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+[2m2025-07-06 13:05:28.138[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.e.t.TomcatWebServer             [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[2m2025-07-06 13:05:28.139[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.h.Http11NioProtocol               [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[2m2025-07-06 13:05:28.139[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.StandardService                 [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2025-07-06 13:05:28.139[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.StandardEngine                  [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.42]
+[2m2025-07-06 13:05:28.142[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[.[.[/]                       [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2025-07-06 13:05:28.142[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 97 ms
+[2m2025-07-06 13:05:28.165[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m [2m:[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+[2m2025-07-06 13:05:28.165[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mc.z.h.HikariDataSource                  [0;39m [2m:[0;39m HikariPool-5 - Starting...
+[2m2025-07-06 13:05:28.167[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mc.z.h.p.HikariPool                      [0;39m [2m:[0;39m HikariPool-5 - Added connection conn40: url=jdbc:h2:./app-db user=SA
+[2m2025-07-06 13:05:28.168[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mc.z.h.HikariDataSource                  [0;39m [2m:[0;39m HikariPool-5 - Start completed.
+[2m2025-07-06 13:05:28.178[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-07-06 13:05:28.196[0;39m [33m WARN[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2025-07-06 13:05:28.246[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.h.H2ConsoleAutoConfiguration    [0;39m [2m:[0;39m H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+[2m2025-07-06 13:05:28.249[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2025-07-06 13:05:28.249[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.e.w.EndpointLinksResolver       [0;39m [2m:[0;39m Exposing 3 endpoints beneath base path '/actuator'
+[2m2025-07-06 13:05:28.258[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.h.Http11NioProtocol               [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-8080"]
+[2m2025-07-06 13:05:28.259[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.e.t.TomcatWebServer             [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[2m2025-07-06 13:05:28.262[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.SpringBootObservabilityStudyApplication[0;39m [2m:[0;39m Started SpringBootObservabilityStudyApplication in 0.233 seconds (process running for 331.317)
+[2m2025-07-06 13:05:28.263[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2025-07-06 13:05:39.760[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[   File Watcher][0;39m [36mrtingClassPathChangeChangedEventListener[0;39m [2m:[0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2m2025-07-06 13:05:39.764[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[      Thread-20][0;39m [36mo.s.b.w.e.t.GracefulShutdown            [0;39m [2m:[0;39m Commencing graceful shutdown. Waiting for active requests to complete
+[2m2025-07-06 13:05:39.765[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[tomcat-shutdown][0;39m [36mo.a.c.h.Http11NioProtocol               [0;39m [2m:[0;39m Pausing ProtocolHandler ["http-nio-8080"]
+[2m2025-07-06 13:05:39.767[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[tomcat-shutdown][0;39m [36mo.s.b.w.e.t.GracefulShutdown            [0;39m [2m:[0;39m Graceful shutdown complete
+[2m2025-07-06 13:05:39.768[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[      Thread-20][0;39m [36mo.a.c.h.Http11NioProtocol               [0;39m [2m:[0;39m Stopping ProtocolHandler ["http-nio-8080"]
+[2m2025-07-06 13:05:39.770[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[      Thread-20][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-07-06 13:05:39.771[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[      Thread-20][0;39m [36mc.z.h.HikariDataSource                  [0;39m [2m:[0;39m HikariPool-5 - Shutdown initiated...
+[2m2025-07-06 13:05:39.851[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[      Thread-20][0;39m [36mc.z.h.HikariDataSource                  [0;39m [2m:[0;39m HikariPool-5 - Shutdown completed.
+[2m2025-07-06 13:05:39.938[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.SpringBootObservabilityStudyApplication[0;39m [2m:[0;39m Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 54332 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+[2m2025-07-06 13:05:39.938[0;39m [32mDEBUG[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.SpringBootObservabilityStudyApplication[0;39m [2m:[0;39m Running with Spring Boot v3.5.3, Spring v6.2.8
+[2m2025-07-06 13:05:39.938[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.SpringBootObservabilityStudyApplication[0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2025-07-06 13:05:40.002[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2025-07-06 13:05:40.004[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+[2m2025-07-06 13:05:40.029[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.e.t.TomcatWebServer             [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[2m2025-07-06 13:05:40.029[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.h.Http11NioProtocol               [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[2m2025-07-06 13:05:40.029[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.StandardService                 [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2025-07-06 13:05:40.029[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.StandardEngine                  [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.42]
+[2m2025-07-06 13:05:40.032[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[.[.[/]                       [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2025-07-06 13:05:40.032[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 94 ms
+[2m2025-07-06 13:05:40.055[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m [2m:[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+[2m2025-07-06 13:05:40.055[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mc.z.h.HikariDataSource                  [0;39m [2m:[0;39m HikariPool-6 - Starting...
+[2m2025-07-06 13:05:40.059[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mc.z.h.p.HikariPool                      [0;39m [2m:[0;39m HikariPool-6 - Added connection conn50: url=jdbc:h2:./app-db user=SA
+[2m2025-07-06 13:05:40.059[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mc.z.h.HikariDataSource                  [0;39m [2m:[0;39m HikariPool-6 - Start completed.
+[2m2025-07-06 13:05:40.069[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-07-06 13:05:40.088[0;39m [33m WARN[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2025-07-06 13:05:40.139[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.h.H2ConsoleAutoConfiguration    [0;39m [2m:[0;39m H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+[2m2025-07-06 13:05:40.141[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2025-07-06 13:05:40.142[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.e.w.EndpointLinksResolver       [0;39m [2m:[0;39m Exposing 3 endpoints beneath base path '/actuator'
+[2m2025-07-06 13:05:40.151[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.h.Http11NioProtocol               [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-8080"]
+[2m2025-07-06 13:05:40.151[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.e.t.TomcatWebServer             [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[2m2025-07-06 13:05:40.155[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.SpringBootObservabilityStudyApplication[0;39m [2m:[0;39m Started SpringBootObservabilityStudyApplication in 0.231 seconds (process running for 343.209)
+[2m2025-07-06 13:05:40.155[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2025-07-06 13:06:19.902[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[   File Watcher][0;39m [36mrtingClassPathChangeChangedEventListener[0;39m [2m:[0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2m2025-07-06 13:06:19.904[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[      Thread-24][0;39m [36mo.s.b.w.e.t.GracefulShutdown            [0;39m [2m:[0;39m Commencing graceful shutdown. Waiting for active requests to complete
+[2m2025-07-06 13:06:19.904[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[tomcat-shutdown][0;39m [36mo.a.c.h.Http11NioProtocol               [0;39m [2m:[0;39m Pausing ProtocolHandler ["http-nio-8080"]
+[2m2025-07-06 13:06:19.906[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[tomcat-shutdown][0;39m [36mo.s.b.w.e.t.GracefulShutdown            [0;39m [2m:[0;39m Graceful shutdown complete
+[2m2025-07-06 13:06:19.907[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[      Thread-24][0;39m [36mo.a.c.h.Http11NioProtocol               [0;39m [2m:[0;39m Stopping ProtocolHandler ["http-nio-8080"]
+[2m2025-07-06 13:06:19.909[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[      Thread-24][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-07-06 13:06:19.910[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[      Thread-24][0;39m [36mc.z.h.HikariDataSource                  [0;39m [2m:[0;39m HikariPool-6 - Shutdown initiated...
+[2m2025-07-06 13:06:20.125[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[      Thread-24][0;39m [36mc.z.h.HikariDataSource                  [0;39m [2m:[0;39m HikariPool-6 - Shutdown completed.
+[2m2025-07-06 13:06:20.229[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.SpringBootObservabilityStudyApplication[0;39m [2m:[0;39m Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 54332 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+[2m2025-07-06 13:06:20.229[0;39m [32mDEBUG[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.SpringBootObservabilityStudyApplication[0;39m [2m:[0;39m Running with Spring Boot v3.5.3, Spring v6.2.8
+[2m2025-07-06 13:06:20.229[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.SpringBootObservabilityStudyApplication[0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2025-07-06 13:06:20.299[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2025-07-06 13:06:20.301[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+[2m2025-07-06 13:06:20.328[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.e.t.TomcatWebServer             [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[2m2025-07-06 13:06:20.329[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.h.Http11NioProtocol               [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[2m2025-07-06 13:06:20.329[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.StandardService                 [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2025-07-06 13:06:20.329[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.StandardEngine                  [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.42]
+[2m2025-07-06 13:06:20.333[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[.[.[/]                       [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2025-07-06 13:06:20.333[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 104 ms
+[2m2025-07-06 13:06:20.360[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m [2m:[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+[2m2025-07-06 13:06:20.360[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mc.z.h.HikariDataSource                  [0;39m [2m:[0;39m HikariPool-7 - Starting...
+[2m2025-07-06 13:06:20.362[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mc.z.h.p.HikariPool                      [0;39m [2m:[0;39m HikariPool-7 - Added connection conn60: url=jdbc:h2:./app-db user=SA
+[2m2025-07-06 13:06:20.362[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mc.z.h.HikariDataSource                  [0;39m [2m:[0;39m HikariPool-7 - Start completed.
+[2m2025-07-06 13:06:20.372[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-07-06 13:06:20.394[0;39m [33m WARN[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2025-07-06 13:06:20.453[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.h.H2ConsoleAutoConfiguration    [0;39m [2m:[0;39m H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+[2m2025-07-06 13:06:20.456[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2025-07-06 13:06:20.457[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.e.w.EndpointLinksResolver       [0;39m [2m:[0;39m Exposing 3 endpoints beneath base path '/actuator'
+[2m2025-07-06 13:06:20.466[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.h.Http11NioProtocol               [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-8080"]
+[2m2025-07-06 13:06:20.467[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.e.t.TomcatWebServer             [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[2m2025-07-06 13:06:20.470[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.SpringBootObservabilityStudyApplication[0;39m [2m:[0;39m Started SpringBootObservabilityStudyApplication in 0.261 seconds (process running for 383.524)
+[2m2025-07-06 13:06:20.471[0;39m [32m INFO[0;39m [35m54332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+2025-07-06 13:06:51 INFO  [File Watcher] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-06 13:06:51 INFO  [Thread-28] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 13:06:51 INFO  [tomcat-shutdown] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-07-06 13:06:51 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 13:06:51 INFO  [Thread-28] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-06 13:06:51 INFO  [Thread-28] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 13:06:51 INFO  [Thread-28] HikariDataSource - HikariPool-7 - Shutdown initiated...
+2025-07-06 13:06:51 INFO  [Thread-28] HikariDataSource - HikariPool-7 - Shutdown completed.
+2025-07-06 13:06:51 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 54332 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 13:06:51 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 13:06:51 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 13:06:51 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 13:06:51 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-07-06 13:06:51 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 13:06:51 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 13:06:51 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 13:06:51 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 13:06:51 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 13:06:51 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 105 ms
+2025-07-06 13:06:51 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 13:06:51 INFO  [restartedMain] HikariDataSource - HikariPool-8 - Starting...
+2025-07-06 13:06:51 INFO  [restartedMain] HikariPool - HikariPool-8 - Added connection conn70: url=jdbc:h2:./app-db user=SA
+2025-07-06 13:06:51 INFO  [restartedMain] HikariDataSource - HikariPool-8 - Start completed.
+2025-07-06 13:06:51 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 13:06:51 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 13:06:51 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 13:06:51 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 13:06:51 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 13:06:51 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 13:06:51 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 13:06:51 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 0.24 seconds (process running for 414.62)
+2025-07-06 13:06:51 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-06 13:07:25 INFO  [File Watcher] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-06 13:07:25 INFO  [Thread-32] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 13:07:25 INFO  [tomcat-shutdown] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-07-06 13:07:25 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 13:07:25 INFO  [Thread-32] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-06 13:07:25 INFO  [Thread-32] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 13:07:25 INFO  [Thread-32] HikariDataSource - HikariPool-8 - Shutdown initiated...
+2025-07-06 13:07:25 INFO  [Thread-32] HikariDataSource - HikariPool-8 - Shutdown completed.
+2025-07-06 13:07:25 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 54332 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 13:07:25 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 13:07:25 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 13:07:25 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 13:07:25 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-07-06 13:07:25 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 13:07:25 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 13:07:25 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 13:07:25 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 13:07:25 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 13:07:25 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 94 ms
+2025-07-06 13:07:25 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 13:07:25 INFO  [restartedMain] HikariDataSource - HikariPool-9 - Starting...
+2025-07-06 13:07:25 INFO  [restartedMain] HikariPool - HikariPool-9 - Added connection conn80: url=jdbc:h2:./app-db user=SA
+2025-07-06 13:07:25 INFO  [restartedMain] HikariDataSource - HikariPool-9 - Start completed.
+2025-07-06 13:07:25 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 13:07:25 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 13:07:25 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 13:07:25 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 13:07:25 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 13:07:25 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 13:07:25 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 13:07:25 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 0.248 seconds (process running for 448.884)
+2025-07-06 13:07:25 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-06 13:09:13 INFO  [File Watcher] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-06 13:09:13 INFO  [Thread-36] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-06 13:09:13 INFO  [tomcat-shutdown] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-07-06 13:09:13 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2025-07-06 13:09:13 INFO  [Thread-36] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-06 13:09:13 INFO  [Thread-36] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 13:09:13 INFO  [Thread-36] HikariDataSource - HikariPool-9 - Shutdown initiated...
+2025-07-06 13:09:13 INFO  [Thread-36] HikariDataSource - HikariPool-9 - Shutdown completed.
+2025-07-06 13:11:43 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Starting SpringBootObservabilityStudyApplication using Java 21.0.7 with PID 54332 (/Users/vivekanand/IdeaProjects/spring-boot-observability-study/target/classes started by vivekanand in /Users/vivekanand/IdeaProjects/spring-boot-observability-study)
+2025-07-06 13:11:43 DEBUG [restartedMain] SpringBootObservabilityStudyApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-06 13:11:43 INFO  [restartedMain] SpringBootObservabilityStudyApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-06 13:11:43 INFO  [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06 13:11:43 INFO  [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-07-06 13:11:43 INFO  [restartedMain] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-06 13:11:43 INFO  [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-06 13:11:43 INFO  [restartedMain] StandardService - Starting service [Tomcat]
+2025-07-06 13:11:43 INFO  [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-06 13:11:43 INFO  [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+2025-07-06 13:11:43 INFO  [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 105 ms
+2025-07-06 13:11:43 INFO  [restartedMain] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06 13:11:43 INFO  [restartedMain] HikariDataSource - HikariPool-12 - Starting...
+2025-07-06 13:11:43 INFO  [restartedMain] HikariPool - HikariPool-12 - Added connection conn110: url=jdbc:h2:./app-db user=SA
+2025-07-06 13:11:43 INFO  [restartedMain] HikariDataSource - HikariPool-12 - Start completed.
+2025-07-06 13:11:43 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06 13:11:43 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06 13:11:43 INFO  [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:./app-db'
+2025-07-06 13:11:43 INFO  [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-06 13:11:43 INFO  [restartedMain] EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-07-06 13:11:43 INFO  [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-06 13:11:43 INFO  [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-06 13:11:43 INFO  [restartedMain] SpringBootObservabilityStudyApplication - Started SpringBootObservabilityStudyApplication in 0.241 seconds (process running for 706.77)
+2025-07-06 13:11:43 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-06 13:11:53 INFO  [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-06 13:11:53 INFO  [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-06 13:11:53 INFO  [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 2 ms
+2025-07-06 13:11:53 WARN  [http-nio-8080-exec-2] CustomerApi - Could not find the customer with id: 12
+in.athenaeum.springbootobservabilitystudy.exceptions.RecordNotFoundException: Could not find the customer with id: 12
+	at in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation.lambda$getEntityById$0(CustomerServiceImplementation.java:68) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation.getEntityById(CustomerServiceImplementation.java:68) ~[classes/:?]
+	at in.athenaeum.springbootobservabilitystudy.services.CustomerServiceImplementation.getById(CustomerServiceImplementation.java:33) ~[classes/:?]
+	at in.athenaeum.springbootobservabilitystudy.apis.CustomerApi.getById(CustomerApi.java:43) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.42.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.42.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2025-07-06 13:11:53 WARN  [http-nio-8080-exec-2] ExceptionHandlerExceptionResolver - Resolved [in.athenaeum.springbootobservabilitystudy.exceptions.RecordNotFoundException: Could not find the customer with id: 12]

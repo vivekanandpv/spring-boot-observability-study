@@ -1,0 +1,68 @@
+Configuration:
+  status: TRACE
+  monitorInterval: 30
+
+  Properties:
+    Property:
+      - name: LOG_PATH
+        value: "logs"
+      - name: "LOG_EXCEPTION_CONVERSION_WORD"
+        value: "%xwEx"
+      - name: "LOG_LEVEL_PATTERN"
+        value: "%5p"
+      - name: "LOG_DATEFORMAT_PATTERN"
+        value: "yyyy-MM-dd'T'HH:mm:ss.SSSXXX"
+      - name: "CONSOLE_LOG_PATTERN"
+        value: "%clr{%d{${sys:LOG_DATEFORMAT_PATTERN}}}{faint} %clr{${sys:LOG_LEVEL_PATTERN}} %clr{%pid}{magenta} %clr{--- %esb{${sys:APPLICATION_NAME:-}}%esb{${sys:APPLICATION_GROUP:-}}[%15.15t] ${sys:LOG_CORRELATION_PATTERN:-}}{faint}%clr{%-40.40c{1.}}{cyan} %clr{:}{faint} %m%n${sys:LOG_EXCEPTION_CONVERSION_WORD}"
+
+
+  Appenders:
+    Console:
+      name: ConsoleAppender
+      target: SYSTEM_OUT
+      PatternLayout:
+        pattern: "${sys:CONSOLE_LOG_PATTERN}"
+
+    RollingFile:
+      name: FileAppender
+      fileName: "${LOG_PATH}/app.log"
+      filePattern: "${LOG_PATH}/app-%d{yyyy-MM-dd}-%i.log.gz"
+      PatternLayout:
+        pattern: "%d{yyyy-MM-dd HH:mm:ss} %-5level [%t] %c{1} - %msg%n"
+      Policies:
+        TimeBasedTriggeringPolicy: {}
+        SizeBasedTriggeringPolicy:
+          size: "10 MB"
+      DefaultRolloverStrategy:
+        max: "30"
+
+    Async:
+      name: AsyncAppender
+      AppenderRef:
+        - ref: ConsoleAppender
+        - ref: FileAppender
+
+  Loggers:
+    Logger:
+      - name: in.athenaeum
+        level: debug
+        additivity: false
+        AppenderRef:
+          - ref: AsyncAppender
+      
+      - name: org.springframework
+        level: info
+        additivity: false
+        AppenderRef:
+          - ref: AsyncAppender
+      
+      - name: org.hibernate
+        level: warn
+        additivity: false
+        AppenderRef:
+          - ref: AsyncAppender
+
+    Root:
+      level: info
+      AppenderRef:
+        - ref: AsyncAppender
