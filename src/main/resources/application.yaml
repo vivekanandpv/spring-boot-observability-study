@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: spring-boot-observability-study
+  datasource:
+    url: jdbc:h2:./app-db;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password: ''
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - health
+          - info
+          - metrics

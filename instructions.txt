@@ -14,3 +14,10 @@ This is a crucial step that many developers miss.
 Go to Settings/Preferences -> Advanced Settings.
 
 Under the Compiler section, check Allow auto-make to start even if developed application is currently running.
+
+
+
+Spring Boot Actuator endpoints:
+/actuator/health
+/actuator/info
+/actuator/metrics   # backed by Micrometer, which is a transitive dependency of Spring Boot Actuator
