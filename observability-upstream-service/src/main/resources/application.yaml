@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: observability-upstream-service
+server:
+  port: ${SERVER_PORT:8081}
+downstream:
+  url: ${DOWNSTREAM_URL}
