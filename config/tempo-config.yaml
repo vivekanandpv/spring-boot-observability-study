@@ -1,0 +1,69 @@
+server:
+  http_listen_port: 3200
+  grpc_listen_port: 9095
+
+distributor:
+  receivers:
+    otlp:
+      protocols:
+        grpc:
+          endpoint: 0.0.0.0:4317
+        http:
+          endpoint: 0.0.0.0:4318
+
+ingester:
+  lifecycler:
+    ring:
+      kvstore:
+        store: inmemory
+      replication_factor: 1
+  trace_idle_period: 10s
+  flush_check_period: 10s
+
+querier:
+  frontend_worker:
+    frontend_address: 127.0.0.1:9095
+
+query_frontend:
+  search:
+    default_result_limit: 20
+
+compactor:
+  compaction:
+    block_retention: 48h
+
+metrics_generator:
+  ring:
+    kvstore:
+      store: inmemory
+  processor:
+    span_metrics:
+      enable_target_info: true
+    service_graphs:
+      enable_client_server_prefix: true
+    local_blocks:
+      max_live_traces: 10000
+      max_block_duration: 5m
+      flush_check_period: 10s
+      trace_idle_period: 10s
+  storage:
+    path: /tmp/tempo/generator/wal
+    remote_write:
+      - url: http://prometheus:9090/api/v1/write
+        send_exemplars: true
+
+storage:
+  trace:
+    backend: local
+    local:
+      path: /tmp/tempo/blocks
+    wal:
+      path: /tmp/tempo/wal
+    pool:
+      max_workers: 100
+      queue_depth: 10000
+
+overrides:
+  defaults:
+    metrics_generator:
+      processors: [service-graphs, span-metrics, local-blocks]
