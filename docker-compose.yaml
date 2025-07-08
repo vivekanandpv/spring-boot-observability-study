@@ -14,6 +14,24 @@ services:
       - OTEL_LOGS_EXPORTER=otlp
     depends_on:
       - otel-collector
+  
+  observability-upstream:
+    build:
+      context: ./observability-upstream-service
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    environment:
+      - JAVA_TOOL_OPTIONS=-javaagent:/app/opentelemetry-javaagent.jar
+      - OTEL_SERVICE_NAME=observability-upstream
+      - OTEL_EXPORTER_OTLP_ENDPOINT=http://otel-collector:4318
+      - OTEL_TRACES_EXPORTER=otlp
+      - OTEL_METRICS_EXPORTER=otlp
+      - OTEL_LOGS_EXPORTER=otlp
+      - SERVER_PORT=8081
+      - DOWNSTREAM_URL=http://spring-boot-observability-study:8080
+    depends_on:
+      - otel-collector
 
   otel-collector:
     image: otel/opentelemetry-collector-contrib:latest
