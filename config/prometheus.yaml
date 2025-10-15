@@ -1,10 +1,12 @@
 global:
-  scrape_interval: 15s
-
-remote_write:
-  - url: "http://localhost:9090/api/v1/write"
+  scrape_interval: 5s # How frequently to scrape targets
 
 scrape_configs:
-  - job_name: 'prometheus'
+  - job_name: 'otel-collector'
+    # The OpenTelemetry Collector exposes a Prometheus endpoint.
+    # We are telling Prometheus to scrape the collector.
+    metrics_path: /metrics
     static_configs:
-      - targets: ['localhost:9090']
+      # 'otel-collector' is the service name in docker-compose.yml
+      # 8889 is the default port for the Prometheus exporter in the collector.
+      - targets: ['otel-collector:8889']

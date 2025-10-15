@@ -1,45 +1,12 @@
-Spring Boot Restart Delay Fix
------------------------------
+Instructions for Observability
 
-Enable Automatic Project Building in IntelliJ:
-IntelliJ needs to automatically compile your changes for DevTools to detect them.
-
-Go to Settings/Preferences -> Build, Execution, Deployment -> Compiler.
-
-Check the box for Build project automatically.
-
-Allow Auto-make to Run While the App is Running:
-This is a crucial step that many developers miss.
-
-Go to Settings/Preferences -> Advanced Settings.
-
-Under the Compiler section, check Allow auto-make to start even if developed application is currently running.
-
-
-
-Spring Boot Actuator endpoints:
-/actuator/health
-/actuator/info
-/actuator/metrics   # backed by Micrometer, which is a transitive dependency of Spring Boot Actuator
-
-On Loggers
-Classic Java logging was provided by java.util.logging. For modern applications, this is not enough.
-Slf4j is the recommended logging facade.
-Create Logger static field using LoggerFactory.createLogger(MyClass.class) per class that would like to log
-Logging has levels:
-    Trace: The most verbose level, used for fine-grained debugging information
-    Debug: Used for debugging information that is less granular than TRACE but still provides detailed insights into application behavior.
-    Info: Indicates significant application events or milestones that are part of normal operation.
-    Warn: Highlights potential issues or situations that are not necessarily errors but could lead to problems.
-    Error: Represents serious issues that indicate a failure in the application’s functionality.
-Actual logging is provided by Logback by default in Spring Boot apps. This can be changed to Log4j (v2) for better performance.
-Use Logback if:
-    You want simplicity and default Spring Boot support.
-    You don’t need advanced logging features.
+1. run: mvn package in both projects
+2. docker compose up -d
+3. GET http://localhost:8081/api/v1/customers
+4. Open Grafana: http://localhost:3000 with admin/admin
+5. Drilldown >
+    Metrics
+    Logs
+    Traces
     
-Use Log4j2 if:
-    You need high-performance async logging.
-    You want advanced filtering, custom plugins, or garbage-free logging.
-To change to log4j2, you need to exclude Spring Boot Starter Logging from web and add log4j2 dependency. Check pom.xml.
-Configuration is in log4j2.yaml
-To support yaml configuration, jackson-dataformat-yaml is required.
+Traces will take some time to appear

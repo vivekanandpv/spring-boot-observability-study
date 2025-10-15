@@ -14,7 +14,9 @@ services:
       - OTEL_LOGS_EXPORTER=otlp
     depends_on:
       - otel-collector
-  
+    networks:
+      - observability-net
+
   observability-upstream:
     build:
       context: ./observability-upstream-service
@@ -32,9 +34,11 @@ services:
       - DOWNSTREAM_URL=http://spring-boot-observability-study:8080
     depends_on:
       - otel-collector
+    networks:
+      - observability-net
 
   otel-collector:
-    image: otel/opentelemetry-collector-contrib:latest
+    image: otel/opentelemetry-collector-contrib:0.137.0 # Loki exporter support vanished since version 0.109.0 (OTLP → Alloy → Loki seems to be the answer now 2025 October?)
     volumes:
       - ./config/otel-collector-config.yaml:/etc/otel-collector-config.yaml
     command: ["--config=/etc/otel-collector-config.yaml"]
@@ -46,30 +50,38 @@ services:
       - tempo
       - prometheus
       - loki
+    networks:
+      - observability-net
 
   tempo:
-    image: grafana/tempo:latest
+    image: grafana/tempo:2.9.0
     command: ["-config.file=/etc/tempo-config.yaml"]
     volumes:
       - ./config/tempo-config.yaml:/etc/tempo-config.yaml
       - /tmp/tempo:/tmp/tempo
     ports:
       - "3200:3200"
+    networks:
+      - observability-net
 
   prometheus:
-    image: prom/prometheus:latest
+    image: prom/prometheus:v3.6.0
     volumes:
       - ./config/prometheus.yaml:/etc/prometheus/prometheus.yml
     ports:
       - "9090:9090"
+    networks:
+      - observability-net
 
   loki:
-    image: grafana/loki:latest
+    image: grafana/loki:3.5
     ports:
       - "3100:3100"
+    networks:
+      - observability-net
 
   grafana:
-    image: grafana/grafana:latest
+    image: grafana/grafana:12.3.0-17718666199
     volumes:
       - ./config/grafana-datasources.yaml:/etc/grafana/provisioning/datasources/datasources.yaml
     ports:
@@ -78,3 +90,9 @@ services:
       - prometheus
       - loki
       - tempo
+    networks:
+      - observability-net
+
+networks:
+  observability-net:
+    driver: bridge

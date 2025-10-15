@@ -9,21 +9,16 @@ management:
   endpoints:
     web:
       exposure:
-        include: "*"
-      base-path: /actuator
-  endpoint:
-    health:
-      show-details: always
+        include:
+          - health
+          - prometheus
+
+  metrics:
+    tags:
+      application: ${spring.application.name}
   
   tracing:
     enabled: true
     sampling:
       probability: 1.0  # 100% sampling for development, reduce it to <10% for production
 
-logging:
-  config: classpath:log4j2.yaml
-  level:
-    io.opentelemetry: INFO
-    io.micrometer: INFO
-    org.springframework.web: DEBUG
-    root: INFO

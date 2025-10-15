@@ -5,6 +5,7 @@ COPY ${AGENT_JAR} /app/opentelemetry-javaagent.jar
 
 ARG APP_JAR=target/*.jar
 COPY ${APP_JAR} /app/application.jar
+COPY app-db.mv.db /app/
 
 WORKDIR /app
 EXPOSE 8080
