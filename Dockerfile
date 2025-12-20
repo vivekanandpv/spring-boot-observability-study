@@ -1,4 +1,4 @@
-FROM openjdk:21-slim
+FROM eclipse-temurin:21-jre-alpine
 
 ARG AGENT_JAR=opentelemetry-javaagent.jar
 COPY ${AGENT_JAR} /app/opentelemetry-javaagent.jar
