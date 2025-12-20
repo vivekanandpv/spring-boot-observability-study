@@ -16,7 +16,7 @@ services:
       - otel-collector
 
   otel-collector:
-    image: otel/opentelemetry-collector-contrib:latest
+    image: otel/opentelemetry-collector-contrib:0.137.0
     volumes:
       - ./config/otel-collector-config.yaml:/etc/otel-collector-config.yaml
     command: ["--config=/etc/otel-collector-config.yaml"]
@@ -30,7 +30,7 @@ services:
       - loki
 
   tempo:
-    image: grafana/tempo:latest
+    image: grafana/tempo:2.9.0
     command: ["-config.file=/etc/tempo-config.yaml"]
     volumes:
       - ./config/tempo-config.yaml:/etc/tempo-config.yaml
@@ -39,19 +39,19 @@ services:
       - "3200:3200"
 
   prometheus:
-    image: prom/prometheus:latest
+    image: prom/prometheus:v3.6.0
     volumes:
       - ./config/prometheus.yaml:/etc/prometheus/prometheus.yml
     ports:
       - "9090:9090"
 
   loki:
-    image: grafana/loki:latest
+    image: grafana/loki:3.5
     ports:
       - "3100:3100"
 
   grafana:
-    image: grafana/grafana:latest
+    image: grafana/grafana:12.3.0-17718666199
     volumes:
       - ./config/grafana-datasources.yaml:/etc/grafana/provisioning/datasources/datasources.yaml
     ports:
